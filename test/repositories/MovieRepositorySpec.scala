@@ -56,7 +56,7 @@ class MovieRepositorySpec extends AnyWordSpec with Matchers {
           result <- repo.findAll
         } yield {
           // Perform assertions
-          result.map(_.copy(id = None)) must contain allElementsOf movies 
+          result.map(_.copy(id = None)) must contain allElementsOf movies
         }
 
         // Return the IO for testing
