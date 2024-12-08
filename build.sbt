@@ -31,6 +31,10 @@ libraryDependencies ++= Seq(
   "org.tpolecat" %% "doobie-hikari" % "1.0.0-RC2",
   "org.tpolecat" %% "doobie-postgres" % "1.0.0-RC2",
   "org.tpolecat" %% "doobie-scalatest" % "1.0.0-RC2" % Test,
+  "org.tpolecat" %% "doobie-core" % "1.0.0-RC2",
+  "org.tpolecat" %% "doobie-hikari" % "1.0.0-RC2",
+  "org.tpolecat" %% "doobie-scalatest" % "1.0.0-RC2" % Test,
+  "com.h2database" % "h2" % "2.2.220" % Test,
 
   // PostgreSQL Driver
   "org.postgresql" % "postgresql" % "42.6.0",
